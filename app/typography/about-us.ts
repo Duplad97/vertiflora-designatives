@@ -1,0 +1,3 @@
+export const LEFT_CONTENT_TITLE = "Mi az a zöldfal?";
+export const LEFT_CONTENT_TEXT = "Bel/kültéren, függőlegesen telepített élő növények flórája. A járófelületből csupán 1m2 területre 300-600db növény is ültethető, ezzel hatalmas oxigén termelő, levegő tisztító és esztétikus felületet létrehozva.";
+export const RIGHT_CONTENT_TEXT = "Az ország teljes területén végzünk építéseket és karbantartásokat. Hazánk egyik legtöbb tapasztalattal és referenciával bíró vállalkozása vagyunk.";

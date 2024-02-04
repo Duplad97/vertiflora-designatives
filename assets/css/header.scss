@@ -3,6 +3,7 @@ header {
     width: 1380px;
     margin: 0 auto;
     position: relative;
+    border-radius: 8px;
 
     #overlay {
         position: absolute;
@@ -33,7 +34,7 @@ header {
             line-height: 72px;
             color: #fff;
         }
-    
+
         p {
             font-family: "Sharp Grotesk Medium 20 Regular";
             width: 80%;
@@ -42,6 +43,10 @@ header {
             line-height: 22px;
             color: rgba(177, 255, 164, 1);
             margin: 0 auto;
+        }
+
+        .button-contained {
+            margin-top: 44px;
         }
     }
 }

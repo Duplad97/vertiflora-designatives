@@ -1,0 +1,54 @@
+nav {
+    z-index: 3;
+    position: sticky;
+    display: flex;
+    padding: 60px;
+    width: 1260px;
+    justify-content: space-between;
+
+    .logo {
+        cursor: pointer;
+    }
+
+    .menu {
+        width: 572px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .nav-item {
+            text-decoration: none;
+            font-family: "Sharp Grotesk Medium 20 Regular";
+            font-weight: 500;
+            color: rgba(177, 255, 164, 1);
+            font-size: 14px;
+            line-height: 17.85px;
+            display: inline-block;
+            position: relative;
+
+            &:hover {
+                opacity: 1;
+
+                &::before {
+                    bottom: -5px;
+                    opacity: 1;
+                }
+            }
+
+            &::before {
+                transition: 300ms;
+                height: 5px;
+                content: "";
+                position: absolute;
+                background-color: rgba(177, 255, 164, 1);
+                width: 100%;
+                bottom: -15px;
+                opacity: 0;
+            }
+        }
+
+        .button-contained {
+            font-size: 14px;
+        }
+    }
+}

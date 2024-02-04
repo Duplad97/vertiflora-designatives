@@ -1,7 +1,8 @@
 import { CSSProperties } from 'react';
 import headerBg from '../../assets/images/header_bg.png';
 import { BUTTON_TEXT, CONTENT_SUBTITLE, CONTENT_TITLE } from '../typography/header';
-import ButtonContained from './button-contained';
+import ButtonContained from './custom/button-contained';
+import NavBar from './navbar';
 
 const backgroundStyle:CSSProperties = { 
     backgroundImage: `url(${headerBg.src})`,
@@ -11,6 +12,8 @@ export default function Header() {
 
     return (
         <header style={backgroundStyle}>
+            <NavBar />
+
             <div id="overlay" />
 
             <div className='content'>
