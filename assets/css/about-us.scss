@@ -1,0 +1,58 @@
+.about-us {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 90px;
+    justify-content: space-between;
+
+    .left-content {
+        width: 35%;
+
+        p, h6 {
+            margin: 0;
+            font-family: "Sharp Grotesk Medium 20 Regular";
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 22px;
+            color: rgba(0, 73, 71, 1);
+        }
+
+        .title {
+            display: flex;
+
+            svg {
+                width: 17px;
+                height: 16.56px;
+                margin-top: 1.5px;
+            } 
+
+            h6 {
+                text-transform: uppercase;
+                padding-left: 15px;
+            }
+        }
+
+        p {
+            margin-top: 18px;
+            padding-left: 32px;
+        }
+    }
+
+    .right-content {
+        width: 45%;
+
+        p {
+            font-family: 'Tanker', sans-serif;
+            text-transform: uppercase;
+            font-weight: 400;
+            font-size: 50px;
+            line-height: 52px;
+            color: rgba(0, 73, 71, 1);
+            margin: 0;
+
+            span {
+                background-color: #fff;
+            }
+        }
+    }
+}
