@@ -26,7 +26,8 @@ export default function RootLayout({
         <html lang="en">
             <head>
                 <link href="https://api.fontshare.com/v2/css?f[]=tanker@400&display=swap" rel="stylesheet" />
-                <link href="https://db.onlinewebfonts.com/c/ff43ca80668e47a1b1208ba9aed65ad2?family=Sharp+Grotesk+Medium+20+Regular" rel="stylesheet"></link>
+                <link href="https://db.onlinewebfonts.com/c/ff43ca80668e47a1b1208ba9aed65ad2?family=Sharp+Grotesk+Medium+20+Regular" rel="stylesheet" />
+                <link href="https://db.onlinewebfonts.com/c/629ed6829f706958b9bdf4f6300dfca0?family=Sharp+Grotesk+SmBold+20+Regular" rel="stylesheet" />
             </head>
             <body style={backgroundStyle} className={inter.className}>{children}</body>
         </html>

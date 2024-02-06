@@ -4,8 +4,15 @@
 @import './about-us.scss';
 @import './services.scss';
 @import './service-card.scss';
+@import './references.scss';
+@import './image-slider.scss';
+
+body {
+    margin: 0;
+}
 
 main {
     width: 1380px;
     margin: 0 auto;
+    padding-top: 10px;
 }
