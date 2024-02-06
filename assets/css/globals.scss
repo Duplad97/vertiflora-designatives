@@ -1,3 +1,5 @@
+@import './variables.scss';
+
 @import './header.scss';
 @import './button-contained.scss';
 @import './navbar.scss';
@@ -6,6 +8,10 @@
 @import './service-card.scss';
 @import './references.scss';
 @import './image-slider.scss';
+
+*, html {
+    scroll-behavior: smooth !important;
+}
 
 body {
     margin: 0;

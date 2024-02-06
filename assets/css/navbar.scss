@@ -5,9 +5,11 @@ nav {
     padding: 60px;
     width: 1260px;
     justify-content: space-between;
+    transition: 0.3s;
 
     .logo {
         cursor: pointer;
+        transition: 0.3s;
     }
 
     .menu {
@@ -20,7 +22,7 @@ nav {
             text-decoration: none;
             font-family: "Sharp Grotesk Medium 20 Regular";
             font-weight: 500;
-            color: rgba(177, 255, 164, 1);
+            color: $lightGreen;
             font-size: 14px;
             line-height: 17.85px;
             display: inline-block;
@@ -40,7 +42,7 @@ nav {
                 height: 5px;
                 content: "";
                 position: absolute;
-                background-color: rgba(177, 255, 164, 1);
+                background-color: $lightGreen;
                 width: 100%;
                 bottom: -15px;
                 opacity: 0;
@@ -49,6 +51,50 @@ nav {
 
         .button-contained {
             font-size: 14px;
+        }
+    }
+
+    &.sticky {
+        position: fixed;
+        width: 99%;
+        z-index: 4;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 6px;
+        padding-right: 20px;
+        background-color: $darkGreen;
+
+        .logo {
+            width: 100px;
+            height: auto;
+        }
+    }
+
+    &.mobile-navbar {
+        display: none;
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+
+        .menu {
+            display: none;
+        }
+
+        a {
+            color: $white;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            display: block;
+
+            &.icon {
+                background: $black;
+                display: block;
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
         }
     }
 }

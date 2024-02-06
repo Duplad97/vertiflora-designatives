@@ -1,10 +1,10 @@
 .button-contained {
     border-radius: 30px;
-    color: rgba(0, 73, 71, 1);
+    color: $darkGreen;
     padding: 12px 20px;
     font-family: 'Sharp Grotesk Medium 20 Regular';
     font-size: 16px;
-    background-color: rgba(177, 255, 164, 1);
+    background-color: $lightGreen;
     border: none;
     cursor: pointer;
     transition: 0.4s;
@@ -16,11 +16,11 @@
     }
 
     &:hover {
-        background-color: rgba(0, 73, 71, 1);
-        color: rgba(177, 255, 164, 1);
+        background-color: $darkGreen;
+        color: $lightGreen;
 
         svg {
-            color: rgba(177, 255, 164, 1);
+            color: $lightGreen;
         }
     }
 }

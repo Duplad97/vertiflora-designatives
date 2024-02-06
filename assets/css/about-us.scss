@@ -14,7 +14,7 @@
             font-weight: 500;
             font-size: 16px;
             line-height: 22px;
-            color: rgba(0, 73, 71, 1);
+            color: $darkGreen;
         }
 
         .title {
@@ -47,11 +47,11 @@
             font-weight: 400;
             font-size: 50px;
             line-height: 52px;
-            color: rgba(0, 73, 71, 1);
+            color: $darkGreen;
             margin: 0;
 
             span {
-                background-color: #fff;
+                background-color: $white;
             }
         }
     }

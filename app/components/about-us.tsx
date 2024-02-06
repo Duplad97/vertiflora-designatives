@@ -4,7 +4,7 @@ import ArrowRight from "./custom/arrow-right";
 export default function AboutUs() {
 
     return (
-        <div className="about-us">
+        <div className="about-us" id="about-us">
 
             <div className="left-content">
                 <div className="title">

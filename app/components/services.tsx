@@ -12,7 +12,7 @@ const servicesList = [
 export default function Services() {
 
     return (
-        <div className="services">
+        <div className="services" id="services">
             {servicesList.map((service, index) => {
                 return <ServiceCard key={Math.random()} index={index} imageSrc={service.src} title={service.title} />
             })}

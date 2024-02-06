@@ -10,7 +10,7 @@
 
     &:hover {
         transform: translate(0, -3%);
-        box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+        box-shadow: $boxShadow;
     }
 
     p, button {
@@ -23,7 +23,7 @@
         font-weight: 400;
         font-size: 30px;
         line-height: 36px;
-        color: rgba(177, 255, 164, 1);
+        color: $lightGreen;
         width: 50%;
     }
 

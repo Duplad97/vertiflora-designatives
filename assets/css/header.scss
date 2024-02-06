@@ -12,7 +12,7 @@ header {
         left: 0;
         right: 0;
         bottom: 0;
-        background-color: rgba(0, 73, 71, 0.3);
+        background-color: $overlay;
         border-radius: 8px;
         z-index: 2;
     }
@@ -31,7 +31,7 @@ header {
             font-weight: 400;
             font-size: 70px;
             line-height: 72px;
-            color: #fff;
+            color: $white;
         }
 
         p {
@@ -40,7 +40,7 @@ header {
             font-weight: 500;
             font-size: 16px;
             line-height: 22px;
-            color: rgba(177, 255, 164, 1);
+            color: $lightGreen;
             margin: 0 auto;
         }
 
