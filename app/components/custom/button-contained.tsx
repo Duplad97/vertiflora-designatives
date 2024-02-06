@@ -1,14 +1,17 @@
 import ArrowRight from "./arrow-right"
 
 interface IProps {
-    text: string
+    text: string | JSX.Element
     arrow: boolean
+    onClick?: Function
+    className?: string
 }
 
 export default function ButtonContained(props: IProps) {
 
     return (
-        <button className="button-contained">
+        //@ts-ignore
+        <button className={`button-contained ${props.className || ""}`} onClick={props.onClick ? () => props.onClick() : undefined}>
             {props.text}
             {props.arrow ? <ArrowRight /> : null}
         </button>

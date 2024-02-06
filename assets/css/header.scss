@@ -48,4 +48,25 @@ header {
             margin-top: 44px;
         }
     }
+
+    @media screen and (max-width: $tablet) {
+        background-size: cover;
+        height: 550px;
+
+        .content {
+            width: 80%;
+            top: 20%;
+            left: 10%;
+
+            h1 {
+                font-size: 38px;
+                line-height: 42px;
+            }
+    
+            p {
+                font-size: 14px;
+                line-height: 20px;
+            }
+        }
+    }
 }

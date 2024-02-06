@@ -124,4 +124,21 @@
             }
         }
     }
+
+    @media screen and (max-width: $tablet) {
+        width: 96%;
+        height: auto;
+        padding-left: 15px;
+
+        .title-controller {
+            display: none;
+        }
+
+        .row-item {
+            img {
+                width: auto;
+                height: auto;
+            }
+        }
+    }
 }

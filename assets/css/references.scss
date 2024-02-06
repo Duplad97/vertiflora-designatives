@@ -13,4 +13,8 @@
         font-weight: 500;
         line-height: 20.4px;
     }
+
+    @media screen and (max-width: $tablet) {
+        height: 500px;
+    }
 }

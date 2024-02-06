@@ -38,4 +38,15 @@
             padding: 10px 9px 10px 10px;
         }
     }
+
+    @media screen and (max-width: $tablet) {
+        height: 400px;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 0 !important;
+
+        &:nth-child(n+1) {
+            margin-top: 15px !important;
+        }
+    }
 }

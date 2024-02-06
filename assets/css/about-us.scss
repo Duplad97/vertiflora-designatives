@@ -55,4 +55,37 @@
             }
         }
     }
+
+    @media screen and (max-width: $tablet) {
+        flex-direction: column;
+        width: 90%;
+        margin-top: 70px;
+
+        .left-content, .right-content {
+            width: 100%;
+        }
+
+        .left-content {
+            margin-bottom: 50px;
+
+            svg {
+                display: none;
+            }
+
+            p {
+                padding-left: 0;
+            }
+
+            .title h6 {
+                padding-left: 0;
+            }
+        }
+
+        .right-content {
+            p {
+                font-size: 36px;
+                line-height: 42px;
+            }
+        }
+    }
 }

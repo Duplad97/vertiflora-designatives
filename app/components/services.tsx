@@ -1,7 +1,7 @@
 import serviceImage1 from '../../assets/images/services_1.png';
 import serviceImage2 from '../../assets/images/services_2.png';
 import serviceImage3 from '../../assets/images/services_3.png';
-import ServiceCard from './custom/service-card.component';
+import ServiceCard from './custom/service-card';
 
 const servicesList = [
     { src: serviceImage1.src, title: "Zöldfalaink felépítése"},
