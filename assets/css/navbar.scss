@@ -5,11 +5,18 @@ nav {
     padding: 60px;
     width: 1260px;
     justify-content: space-between;
-    transition: 0.3s;
+    transition: 0.4s;
 
     .logo {
         cursor: pointer;
         transition: 0.3s;
+
+        &-container {
+            transition: 0.7s;
+            &:hover {
+                transform: rotate3d(1, 1, 1, 360deg);
+            }
+        }
     }
 
     .menu {

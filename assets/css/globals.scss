@@ -9,7 +9,8 @@
 @import './references.scss';
 @import './image-slider.scss';
 
-*, html {
+*,
+html {
     scroll-behavior: smooth !important;
 }
 
@@ -24,5 +25,17 @@ main {
 
     @media screen and (max-width: $tablet) {
         width: 98%;
+    }
+}
+
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+
+    &.active {
+        transform: translateY(0);
+        opacity: 1;
     }
 }

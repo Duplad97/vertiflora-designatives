@@ -2,7 +2,7 @@
 import Image from "next/image";
 import logo from "../../assets/images/logo.png";
 import ButtonContained from "./custom/button-contained";
-import { BUTTON_TEXT } from "../typography/navbar";
+import { BUTTON_TEXT, CLOSE_MENU_TEXT } from "../typography/navbar";
 import { useEffect, useRef } from "react";
 
 const navItems = [
@@ -65,7 +65,8 @@ const DesktopNavBar = () => {
 
 const MobileNavBar = () => {
 
-    const toggleMenu = () => {
+    const toggleMenu = (e:any) => {
+        e?.preventDefault();
         const container = document.getElementById("menu");
  
         if (container) {
@@ -88,7 +89,7 @@ const MobileNavBar = () => {
                     return <a key={Math.random()} className="nav-item" href={navItem.href}>{navItem.label}</a>
                 })}
                 <ButtonContained text={BUTTON_TEXT} arrow={false} />
-                <a className="nav-item" href="javascript:void(0)" onClick={toggleMenu}>Bezárás</a>
+                <a className="nav-item" href="" onClick={(e) => toggleMenu(e)}>{CLOSE_MENU_TEXT}</a>
             </div>
         </div>
     )

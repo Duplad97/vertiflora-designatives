@@ -6,7 +6,7 @@ export default function AboutUs() {
     return (
         <div className="about-us" id="about-us">
 
-            <div className="left-content">
+            <div className="left-content reveal">
                 <div className="title">
                     <ArrowRight />
                     <h6>{LEFT_CONTENT_TITLE}</h6>
@@ -14,7 +14,7 @@ export default function AboutUs() {
                 <p>{LEFT_CONTENT_TEXT}</p>
             </div>
 
-            <div className="right-content">
+            <div className="right-content reveal">
                 <p><span>{RIGHT_CONTENT_TEXT}</span></p>
             </div>
 

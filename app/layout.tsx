@@ -7,7 +7,8 @@ import { CSSProperties } from "react";
 const backgroundStyle: CSSProperties = {
     backgroundImage: `url(${pageBg.src})`,
     backgroundPosition: 'center',
-    backgroundSize: '100% auto',
+    backgroundSize: 'contain',
+    backgroundRepeat: 'no-repeat'
 };
 
 const inter = Inter({ subsets: ["latin"] });

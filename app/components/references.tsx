@@ -13,7 +13,7 @@ export default function References() {
     ]
 
     return (
-        <div className="references" id="references">
+        <div className="references reveal" id="references">
             <h1>{TITLE}</h1>
 
             <ImageSlider items={referencesList} />
