@@ -3,7 +3,7 @@ import Image from "next/image";
 import logo from "../../assets/images/logo.png";
 import ButtonContained from "./custom/button-contained";
 import { BUTTON_TEXT, CLOSE_MENU_TEXT } from "../typography/navbar";
-import { useEffect, useRef } from "react";
+import { useEffect } from "react";
 
 const navItems = [
     { label: "Rólunk", href: "#about-us" },
